@@ -1,15 +1,6 @@
-from SearchSO import SO
-
-SO = SO()
+import SearchSO
 
 try:
-    res = 5 + 'sr'
+    a = 5 + 'str'
 except Exception as e:
-    #SearchSO.check(str(e))
-    SO.check()
-pass
-#SearchSO.check()
-
-
-
-
+    SearchSO.checkError(e)

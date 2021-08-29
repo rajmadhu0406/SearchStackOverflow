@@ -5,42 +5,45 @@ Installation
 -
 
 ```sh
-mkdir SearchStackOverflow 
+$ mkdir SearchStackOverflow 
 
-cd SearchStackOverflow
+$ cd SearchStackOverflow
 
-git clone https://github.com/rajmadhu0406/SearchStackOverflow.git 
+$ git clone https://github.com/rajmadhu0406/SearchStackOverflow.git 
 ```
 
 Run .py File
 -
 
 ```sh
-touch fileName.py
+$ touch fileName.py
 
-cat fileName.py
+$ cat>fileName.py
 ```
 
-> ___Write your program in this file___
+> ___Write your program___
 
 ```sh
-cat run.py
+$ vi run.py
 ```
 
-> ___Change SearchSO.run('fileName.py')___
+> ___Update SearchSO.run('fileName.py')___
 
 ```sh
-python3 run.py
+$ python3 run.py
 ```
 
 Run Personalize Query
 -
 
 ```sh
-  import SearchSO
-  SearchSo.findSolution(question,language) 
+$ cat>fileName.py
+
+$ import SearchSO
+
+$ SearchSo.findSolution(question_tags,language) 
 ```
-> ___Here pass strings for both question and language___ 
+> ___Here pass strings for both question_tags and language___ 
 
 Features
 -
